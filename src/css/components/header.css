@@ -109,7 +109,7 @@
   .header-open-menu-btn:focus {
     /* scale: 1.1; */
     transform: scale(1.1);
-    color: #e0373f;
+    color:  #0045e3;
   }
   .header-open-menu-span {
     position: relative;
@@ -120,7 +120,7 @@
 
   .header-link {
     display: block;
-    background-color: var(--button-text);
+    background-color: #0045e3;
     padding: 18px 24px;
     border-radius: 60px;
     letter-spacing: -0.02em;
@@ -128,6 +128,6 @@
   }
   .header-link:hover,
   .header-link:focus {
-    background-color: #e0373f;
+    background-color: #022f98;;
   }
 }

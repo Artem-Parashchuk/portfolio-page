@@ -78,7 +78,7 @@
 }
 
 .functional-span {
-  color: #ed3b44;
+  color: #0045e3;
 }
 .websites-span {
   color: rgba(250, 250, 250, 0.4);
@@ -294,7 +294,7 @@ button#ac-trigger-btn.ac-trigger.custom::after {
   width: 260px;
   margin: 0 auto;
   justify-content: center;
-  background-color: #ed3b44;
+  background-color: #0045e3;
 }
 
 @media screen and (min-width: 768px) {

@@ -26,7 +26,7 @@
   margin-bottom: 63px;
 }
 .work-together-span {
-  color: var(--button-text);
+  color:#0045e3;
 }
 .work-together-form {
   display: flex;
@@ -70,7 +70,7 @@
 }
 
 .incorrect-input {
-  border-color: #e74a3b;
+  border-color: #0045e3;
 }
 
 .email-text {
@@ -111,13 +111,14 @@
   letter-spacing: -0.02em;
   color: var(--main-text);
   border-radius: 100%;
-  background-color: var(--button-text);
+  background-color: #0045e3;
   border: none;
   transition: background-color var(--transition-pattern);
 }
 
-.work-together-button:active {
-  background-color: #e0373f;
+.work-together-button:active,
+.work-together-button:hover {
+  background-color: #022f98;
 }
 
 .work-together-wrapper-contacts {
@@ -140,8 +141,11 @@
   border-radius: 60px;
   text-wrap: nowrap;
   transition: border-color var(--transition-pattern);
+  transition: background-color .25s ease;
 }
-
+.work-together-contact:hover {
+  background-color: #022f98;
+}
 .work-together-contact:active {
   border-color: var(--main-text);
 }
@@ -234,7 +238,7 @@
 
   .work-together-button:hover,
   .work-together-button:focus {
-    background-color: #e0373f;
+    background-color:#022f98;;
   }
 
   .work-together-contact:hover,
@@ -360,12 +364,16 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: rgba(237, 59, 68, 0.4);
+  background-color: rgb(0, 69, 227);
   opacity: 0;
   visibility: hidden;
   transform: translateY(200%);
   transition: opacity var(--transition-pattern),
-    visibility var(--transition-pattern), transform var(--transition-pattern);
+    visibility var(--transition-pattern), transform var(--transition-pattern), background-color .25s ease;
+}
+.scroll-up-btn:hover {
+  background-color: #022f98;
+
 }
 .scroll-up-svg {
   stroke: var(--main-text);
